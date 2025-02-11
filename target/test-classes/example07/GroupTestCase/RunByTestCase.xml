@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Group Test Case Suite">
+	<test name="Google Group Test Case">
+		<groups>
+			<run>
+				<include name="sanity" />
+				<exclude name="regression"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="example07.GroupTestCase.GoogleTestCase" />
+		</classes>
+	</test>
+	<test name="Bing Group Test Case">
+		<groups>
+			<run>
+				<include name="smoke" />
+			</run>
+		</groups>
+		<classes>
+			<class name="example07.GroupTestCase.BingTestCase" />
+		</classes>
+	</test>
+	<test name="Yandex Group Test Case">
+		<groups>
+			<run>
+				<include name="regression" />
+				<exclude name="smoke"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="example07.GroupTestCase.YandexTestCase" />
+		</classes>
+	</test>
+</suite>

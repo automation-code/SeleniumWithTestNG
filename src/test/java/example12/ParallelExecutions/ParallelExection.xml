@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- If parameters of parallel="none" or parallel="false" then test case run in sequential execution
+	 If thread-count=1 then it will consider test case run in sequential execution
+	 If parallel="tests" then it will run parallel in tests wise
+	 If parallel="classes" then it will run parallel in classes wise
+	 If parallel="methods" then it run run parallel in methods wise
+	 
+	 We can run parallel executions also from suite or test tags level
+	 -->
+	 
+<suite name="Suite" parallel="classes" thread-count="3">
+	<test name="Execution Class1 Test">
+		<classes>
+			<class name="example12.ParallelExecutions.ExecutionClass1" />
+		</classes>
+	</test>
+	<test name="Execution Class2 Test">
+		<classes>
+			<class name="example12.ParallelExecutions.ExecutionClass2" />
+		</classes>
+	</test>
+</suite>

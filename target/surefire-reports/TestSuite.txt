@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 43, Failures: 4, Errors: 0, Skipped: 39, Time elapsed: 5.015 s <<< FAILURE! - in TestSuite
+openBrowser(example06.EnableDisable.EnableDisableTestCase)  Time elapsed: 4.42 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browserName' is required by BeforeTest on method openBrowser but has not been marked @Optional or defined
+
+
+loginUser(example06.EnableDisable.EnableDisableTestCase)  Time elapsed: 0 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'username' is required by @Test on method loginUser but has not been marked @Optional or defined
+
+
+openUrl(example06.EnableDisable.EnableDisableTestCase)  Time elapsed: 0.015 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'baseUrl' is required by @Test on method openUrl but has not been marked @Optional or defined
+
+
+openUrl(example06.EnableDisable.IgnoreTestCase)  Time elapsed: 0 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'baseUrl' is required by @Test on method openUrl but has not been marked @Optional or defined
+
+

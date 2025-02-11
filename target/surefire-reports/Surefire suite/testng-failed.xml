@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="example06.EnableDisable.IgnoreTestCase">
+        <methods>
+          <include name="openUrl"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="veriftyPageTitle"/>
+        </methods>
+      </class> <!-- example06.EnableDisable.IgnoreTestCase -->
+      <class name="example03.Assertions.TestngUsingHardAssert">
+        <methods>
+          <include name="BeforeTestCaseRunning"/>
+          <include name="AfterTestCaseRunning"/>
+          <include name="validationUsingHardAssert"/>
+        </methods>
+      </class> <!-- example03.Assertions.TestngUsingHardAssert -->
+      <class name="example07.GroupTestCase.GoogleTestCase">
+        <methods>
+          <include name="B"/>
+          <include name="C"/>
+          <include name="A"/>
+        </methods>
+      </class> <!-- example07.GroupTestCase.GoogleTestCase -->
+      <class name="example04.ExecutionFlow.TestngExecutionFlow">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="testing"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- example04.ExecutionFlow.TestngExecutionFlow -->
+      <class name="example07.GroupTestCase.YandexTestCase">
+        <methods>
+          <include name="A"/>
+          <include name="C"/>
+          <include name="B"/>
+        </methods>
+      </class> <!-- example07.GroupTestCase.YandexTestCase -->
+      <class name="example07.GroupTestCase.BingTestCase">
+        <methods>
+          <include name="A"/>
+          <include name="B"/>
+          <include name="C"/>
+        </methods>
+      </class> <!-- example07.GroupTestCase.BingTestCase -->
+      <class name="example03.Assertions.TestngUsingSoftAssert">
+        <methods>
+          <include name="BeforeTestCaseRunning"/>
+          <include name="AfterTestCaseRunning"/>
+          <include name="validationUsingSoftAssert"/>
+        </methods>
+      </class> <!-- example03.Assertions.TestngUsingSoftAssert -->
+      <class name="example16.ExtentReports.TestCaseER">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyLogoutFunctionality"/>
+          <include name="loginPage"/>
+          <include name="verifyCurrentUrl"/>
+          <include name="verifySuccessfullyLogin"/>
+          <include name="invalidUserLogin"/>
+          <include name="lunchBrowser"/>
+          <include name="verifyPageTitle"/>
+        </methods>
+      </class> <!-- example16.ExtentReports.TestCaseER -->
+      <class name="example06.EnableDisable.EnableDisableTestCase">
+        <methods>
+          <include name="loginUser"/>
+          <include name="openUrl"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="veriftyPageTitle"/>
+        </methods>
+      </class> <!-- example06.EnableDisable.EnableDisableTestCase -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

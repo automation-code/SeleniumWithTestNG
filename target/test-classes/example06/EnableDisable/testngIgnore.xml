@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestCase Running By Suite">
+	<parameter name="baseUrl"
+		value="https://practicetestautomation.com/practice-test-login/" />
+	<parameter name="username" value="student" />
+	<parameter name="password" value="Password123" />
+	<test name="TestCase Running By Chrome Browser">
+		<parameter name="browserName" value="chrome" />
+		<!-- If ignore the method then put @Ignore annotation on method
+		and if ignore the test case then put @Ignore annotation on class
+		-->
+		<classes>
+			<class name="example06.EnableDisable.IgnoreTestCase">
+				<methods>
+					<include name="openUrl" />
+					<include name="loginUser" />
+					<include name="veriftyPageTitle" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TestCase Running By Edge Browser">
+		<parameter name="browserName" value="edge" />
+		<classes>
+			<class name="example06.EnableDisable.IgnoreTestCase">
+				<methods>
+					<include name="openUrl" />
+					<include name="loginUser" />
+					<include name="veriftyPageTitle" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Assertion TestCase Suite">
+	<test name="Hard Assertion TestCase">
+		<classes>
+			<class
+				name="example03.Assertions.TestngUsingHardAssert">
+				<methods>
+					<include name="validationUsingHardAssert" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Soft Assert TestCase">
+		<classes>
+			<class
+				name="example03.Assertions.TestngUsingSoftAssert">
+				<methods>
+					<include name="validationUsingSoftAssert" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
