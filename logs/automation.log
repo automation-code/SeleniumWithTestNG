@@ -1,7 +1,0 @@
-14:05:01.132 [TestNG-test-Test-2] INFO  testCase.ForgotPasswordTesting - Enter the username for resetting the password
-14:05:01.158 [TestNG-test-Test-1] INFO  testCase.LoginPageTesting - Enter the username and password in login page
-14:05:02.350 [TestNG-test-Test-1] INFO  testCase.LoginPageTesting - Get the title of the page
-14:05:02.351 [TestNG-test-Test-1] INFO  testCase.LoginPageTesting - Validate actual title is matching from expected title
-14:05:02.358 [TestNG-test-Test-1] INFO  testCase.LoginPageTesting - Get the currentUrl of the page
-14:05:02.359 [TestNG-test-Test-1] INFO  testCase.LoginPageTesting - Validate actual URL is matching from expected URL
-14:05:05.283 [TestNG-test-Test-2] INFO  testCase.ForgotPasswordTesting - Get the successfully message to reset link
